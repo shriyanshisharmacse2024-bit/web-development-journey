@@ -1,0 +1,29 @@
+#Container{
+    background-color: rgb(232, 20, 20);
+    height: 200px;
+    width:300px;
+    border-radius: 20px;
+    position: relative;
+}
+
+
+.rectanglr{
+    background-color: blue;
+    bottom:50px;
+    position:absolute;
+    height:100px;
+    width:300px
+    
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top:50px;
+    left:100px;
+    z-index: 1;
+    
+   
+}
